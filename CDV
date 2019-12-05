@@ -1,0 +1,21 @@
+Function CDV(q As Integer, x As Double) As Double
+    Select Case q
+            Case Is = 1
+                    CDV = x
+            Case Is = 2
+                    CDV = -3.6 + 0.91 * x - 0.0017 * x ^ 2
+                Case Is = 3
+                    CDV = -6.4 + 0.82 * x - 0.0013 * x ^ 2
+                Case Is = 4
+                    CDV = -13 + 0.86 * x - 0.0015 * x ^ 2
+            Case Is = 5
+                    CDV = -12 + 0.76 * x - 0.0011 * x ^ 2
+                Case Is = 6
+                    CDV = -14.7 + 0.75 * x - 0.0011 * x ^ 2
+                Case Is = 7
+                    CDV = -18.5 + 0.86 * x - 0.0018 * x ^ 2
+       Case Else
+
+    End Select
+End Function
+
